@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bluetooth_airplane_mode_toast">Bluetooth sal tydens vliegtuigmodus aan bly</string>
+</resources>

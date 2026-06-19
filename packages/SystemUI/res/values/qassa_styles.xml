@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Pixel navbar -->
+    <style name="DotStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:alpha">@null</item>
+    </style>
+
+    <!-- Alert slider -->
+    <style name="TriStateUiText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:fontFamily">@*android:string/config_headlineFontFamilyMedium</item>
+    </style>
+
+    <!-- Status bar notification ticker -->
+    <style name="TextAppearance.StatusBar.PhoneTicker" parent="@*android:style/TextAppearance.StatusBar">
+        <!-- Note: must be dp to fit in status bar -->
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="TextAppearance.QS.Date" parent="TextAppearance.QS.TileLabel.Secondary">
+        <item name="android:textSize">@dimen/quick_settings_date_size</item>
+        <item name="android:fontFamily">@*android:string/config_bodyFontFamily</item>
+        <item name="android:textColor">@color/qs_date_color</item>
+    </style>
+
+    <style name="QSBrightnessThiccBar" parent="@android:style/Widget.DeviceDefault.SeekBar">
+        <item name="android:background">@null</item>
+        <item name="android:thumb">@null</item>
+        <item name="android:progressDrawable">@drawable/brightness_progress_drawable</item>
+    </style>
+</resources>

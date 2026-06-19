@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bluetooth_airplane_mode_toast">啟用飛行模式期間，藍牙會保持開啟</string>
+</resources>

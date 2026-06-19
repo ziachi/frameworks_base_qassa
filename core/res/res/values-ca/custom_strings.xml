@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bluetooth_airplane_mode_toast">El Bluetooth es mantindrà activat durant el mode d\'avió</string>
+</resources>

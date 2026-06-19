@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bluetooth_airplane_mode_toast">비행기 모드에서 블루투스는 켜진 상태로 유지됩니다</string>
+</resources>
